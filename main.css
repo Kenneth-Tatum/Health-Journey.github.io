@@ -1,0 +1,207 @@
+* {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-image: linear-gradient(65deg, blue, purple, gray);
+    font-family: 'Times New Roman';
+    font-size: 21px;
+}
+
+/*body {
+  background-color:silver;
+  background-image:
+  radial-gradient(circle at 100% 150%, blue 24%, purple 24%, white 28%, blue 28%, purple 36%, blue 36%, purple 40%, transparent 40%, transparent),
+  radial-gradient(circle at 0    150%, blue 24%, purple 24%, purple 28%, blue 28%, blue 36%, purple 36%, purple 40%, transparent 40%, transparent),
+  radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
+  radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
+  radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+  background-size: 650px 250px;
+  font-family: 'Times New Roman';
+  font-size: 21px;
+  }*/
+
+/*body{
+  background-color: #fff;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  font-family: 'Times New Roman';
+  font-size: 21px;
+  }*/
+/*body{
+  background:
+  radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+  radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+  radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+  radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+  radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+  radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+  radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+  radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+  linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+  linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+  background-color: #300;
+  background-size: 100px 100px;
+  font-family: 'Times New Roman';
+  font-size: 21px;
+  }*/
+
+
+/* Reusable classes*/
+
+/* background: linear-gradients*/
+
+/* Old Habit table data */
+.OH {
+    background: linear-gradient(40deg, gray, red);
+}
+
+/* New Habit table data*/
+.NH {
+    background: linear-gradient(40deg, gray, purple);
+}
+
+/* Benefit table data*/
+.B {
+    background: linear-gradient(40deg, gray, blue);
+}
+
+/* background: linear-gradients ends*/
+
+/*Text-Alignments*/
+
+/*Text Align Center*/
+.TAC {
+    text-align: center;
+}
+
+/*Text Align Right*/
+.TAR {
+    text-align: right;
+}
+
+/*Text Align Left*/
+.TAL {
+    text-align: left;
+}
+
+/*Text-Alignments End*/
+/* Reusable classes End*/
+/*Prime Nav Link States*/
+
+/* unvisited link */
+#prime-nav li a:link {
+    color: purple;
+    transition: all 1.5s ease-in-out;
+}
+
+/* visited link */
+#prime-nav li a:visited {
+    color: rgb(214, 122, 127);
+}
+
+/* mouse over link */
+#prime-nav li a:hover {
+    color: rgb(121, 222, 127);
+    transition: all 0.1s ease-in-out;
+}
+
+/* selected link */
+#prime-nav li a:active {
+    color: blue;
+}
+
+
+/*Prime Nav Link States End*/
+
+/* Link States*/
+
+/* unvisited link */
+a.goodRef:link {
+    color: rgb(214, 98, 127);
+    transition: all 1.5s ease-in-out;
+}
+
+/* visited link */
+a.goodRef:visited {
+    color: rgb(214, 122, 127);
+}
+
+/* mouse over link */
+a.goodRef:hover {
+    color: rgb(154, 242, 127);
+    transition: all 0.1s ease-in-out;
+}
+
+/* selected link */
+a.goodRef:active {
+    color: blue;
+}
+
+
+/* Link States End*/
+
+
+
+/*Element Styling by Type*/
+h2 {
+    color: rgb(214, 122, 127);
+}
+
+.oldHabit {
+    text-decoration-line: line-through;
+    color: grey;
+}
+
+.newHabit,
+.present {
+    text-decoration-line: underline;
+}
+
+table {
+    background: black;
+    padding: 2%;
+    border-radius: 20px;
+    margin: 5% auto;
+}
+
+th {
+    background-color: purple;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+
+td {
+    text-align: center;
+}
+
+/*Element Styling by Type End*/
+
+/*Element Styling by ID*/
+#prime-nav li a {
+    color: purple;
+    text-decoration: none;
+    cursor: pointer;
+    list-style-type: disclosure-closed;
+
+}
+
+#prime-nav li {
+    list-style-type: disclosure-closed;
+    margin-bottom: 15px;
+    font-weight: bold;
+
+}
+
+#prime-nav {
+    position: fixed;
+    right: 20px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 20px 25px 0px 55px;
+}
+
+/*Element Styling by ID End*/
